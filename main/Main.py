@@ -11,8 +11,7 @@ log.addHandler(fh)
 
 def get_repos(query, sort_order=None, ignore=None):
     headers = {
-        "Accept": "application/vnd.github.v3+json",
-        "Authorization": "token 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"
+        "Accept": "application/vnd.github.v3+json"
     }
     all_results = []
     ind = 1
